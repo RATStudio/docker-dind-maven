@@ -1,5 +1,5 @@
 REGISTRY=docker.io
-IMAGE_OWNER=oconnormi
+IMAGE_OWNER=ratstudio
 IMAGE_NAME=dind-maven
 GIT_BRANCH:=$(shell git symbolic-ref HEAD | sed -e 's,.*/\(.*\),\1,' 2>/dev/null)
 ifneq (${GIT_BRANCH}, master)
